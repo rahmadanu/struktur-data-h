@@ -33,6 +33,7 @@ public class DLL {
         Node node = new Node(val);
         node.prev = tail;
         tail.next = node;
+        tail = node;
         size++;
     }
 
