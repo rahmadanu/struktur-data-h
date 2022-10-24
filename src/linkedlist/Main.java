@@ -3,6 +3,21 @@ package linkedlist;
 public class Main {
 
     public static void main(String[] args) {
+        /*DLL list = new DLL();
+        list.insertFirst(1);
+        list.insertFirst(2);
+        list.insertFirst(3);
+        list.insertLast(5);
+        list.insertMiddle(9, 1);
+        list.insertMiddle(10, 3);
+        list.display();
+        list.deleteFirst();
+        list.display();
+        list.deleteLast();
+        list.display();
+        list.deleteMiddle(2);
+        list.display();*/
+
         SLL list = new SLL();
         list.insertFirst(1);
         list.insertFirst(2);
