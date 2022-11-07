@@ -50,8 +50,8 @@ public class CustomStack {
     }
 
     public void display() {
-        for (int i = 0; i < data.length; i++) {
-            System.out.print(data[i] + " ");
+        for (int i = ptr; i >= 0; i--) {
+            System.out.println(data[i] + " ");
         }
         System.out.println();
     }
