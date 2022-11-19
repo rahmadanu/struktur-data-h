@@ -10,6 +10,7 @@ public class InBuildExamples {
         queue.add(1);
         queue.add(2);
         queue.add(3);
+        queue.clear();
 
         System.out.println(queue.remove());
     }

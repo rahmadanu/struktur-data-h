@@ -55,4 +55,12 @@ public class CustomQueue {
         }
         System.out.println();
     }
+
+    public void clear() {
+        //this.data = null;
+        for (int i = 0; i < end; i++) {
+            data[i] = 0;
+        }
+        end = 0;
+    }
 }
